@@ -1,10 +1,8 @@
 @import "tailwindcss";
+@plugin "@tailwindcss/forms";
 @font-face {
   font-family: "Pretendard Variable";
   font-weight: normal;
   src: url("./fonts/PretendardVariable.woff2") format('woff2-variations');
 }
-
-body {
-  /* font-family: "Pretendard Variable"; */
-}
+body {font-family: "Pretendard Variable"; font-size: 14px;letter-spacing: -0.5px}
