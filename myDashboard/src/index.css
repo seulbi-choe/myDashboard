@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@font-face {
+  font-family: "Pretendard Variable";
+  font-weight: normal;
+  src: url("./fonts/PretendardVariable.woff2") format('woff2-variations');
+}
+
+body {
+  /* font-family: "Pretendard Variable"; */
+}
