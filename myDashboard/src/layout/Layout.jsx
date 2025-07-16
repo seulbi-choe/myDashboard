@@ -5,14 +5,15 @@ import Sidebar from "../components/Sidebar";
 
 const Layout = ()=>{
   return(
-    <div className="w-full h-full flex bg-stone-50">
+    <div className="flex w-full h-full">
       <Sidebar />
-      <main className="w-[calc(100%-200px)] flex flex-wrap">
-        <Header />
-        <Outlet />
-        <Footer />
+      <main className="w-[calc(100%-200px)] h-screen flex bg-neutral-100 flex-wrap overflow-auto">
+          <Header />
+          <Outlet />
+          <Footer />
       </main>
     </div>
+
   )
 }
 export default Layout;

@@ -5,12 +5,12 @@ const Sidebar = ()=>{
       <h1>logo</h1>
       <ul className="pt-8">
         <li>          
-          <NavLink to="/" className={({ isActive }) =>`inline-block py-2 ${isActive ? "font-black" : ""}`}>
+          <NavLink to="/" className={({ isActive }) =>`inline-block text-gray-500 py-2 ${isActive ? "font-black text-gray-900" : ""}`}>
             HOME
           </NavLink>
         </li>
         <li>
-          <NavLink to="/todo" className={({ isActive }) =>`inline-block py-2 ${isActive ? "font-black" : ""}`}>
+          <NavLink to="/todo" className={({ isActive }) =>`inline-block text-gray-500 py-2 ${isActive ? "font-black text-gray-900" : ""}`}>
             TODO
           </NavLink>
         </li>
